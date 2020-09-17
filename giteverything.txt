@@ -1,0 +1,38 @@
+Git- learn
+https://www.youtube.com/watch?v=4KdGgGsIDeA&ab_channel=SHAJ.T3CH
+
+git init
+git status
+for stage(single file), git add 
+for stage(single file), git add --all or git add .
+
+for commit, git commit ,press i for comment or
+git commit -m "comment"
+
+git log --oneline
+
+for getting previous stage,, git checkout id
+git checkout master
+
+git diff
+ 
+git credentional: windows then remove the last file
+
+Branch
+create branch, git branch branch_name
+Branch list, git branch
+for go another branch , git branch -b branch_name
+For add master branch,,git merge branch name(at first going to master branch)
+For delete, git branch -D branch_name
+
+
+
+git stash
+git stash pop
+git stash list
+git stash pop list_name
+
+
+git ignore:
+touch .gitignore
+open gitignore file,,,then type *.extention
